@@ -221,12 +221,12 @@ public class IEEE754rUtils {
      * @return  the largest of the values
      */
     public static double max(final double a, final double b) {
-        if(Double.isNaN(a)) {
+       /* if(Double.isNaN(a)) {
             return b;
         } else
         if(Double.isNaN(b)) {
             return a;
-        } else {
+        } else*/ {
             return Math.max(a, b);
         }
     }

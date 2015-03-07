@@ -76,7 +76,7 @@ public class Validate {
      * Constructor. This class should not normally be instantiated.
      */
     public Validate() {
-      super();
+      super(); 
     }
 
     // isTrue
@@ -137,7 +137,7 @@ public class Validate {
      * throwing an exception with the specified message. This method is useful when
      * validating according to an arbitrary boolean expression, such as validating a
      * primitive number or using your own custom validation expression.</p>
-     *
+     *	
      * <pre>
      * Validate.isTrue(i &gt;= min &amp;&amp; i &lt;= max, "The value must be between &#37;d and &#37;d", min, max);
      * Validate.isTrue(myObject.isOk(), "The object is not okay");</pre>
@@ -151,9 +151,9 @@ public class Validate {
      * @see #isTrue(boolean, String, double)
      */
     public static void isTrue(final boolean expression, final String message, final Object... values) {
-        if (expression == false) {
+       /* if (expression == false) {
             throw new IllegalArgumentException(String.format(message, values));
-        }
+        }*/
     }
 
     /**
