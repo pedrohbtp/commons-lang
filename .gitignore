@@ -15,3 +15,7 @@ site-content
 .settings
 .classpath
 .project
+
+# System files
+.DS_STORE
+*/.DS_STORE
